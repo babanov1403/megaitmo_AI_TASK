@@ -1,0 +1,870 @@
+2025-01-31 12:19:59 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 12:19:59 | INFO | Processing prediction request with id: 1
+2025-01-31 12:19:59 | ERROR | Internal error processing request 1: Cannot create valid authentication object: you need to provide folder_id and either iam token or api_key fields
+2025-01-31 12:19:59 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.012s
+2025-01-31 12:22:45 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 12:22:45 | INFO | Processing prediction request with id: 1
+2025-01-31 12:22:45 | ERROR | Internal error processing request 1: Cannot create valid authentication object: you need to provide folder_id and either iam token or api_key fields
+2025-01-31 12:22:45 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.010s
+2025-01-31 12:23:51 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 12:23:51 | INFO | Processing prediction request with id: 1
+2025-01-31 12:23:52 | ERROR | Internal error processing request 1: 422 Client Error: Unprocessable Entity for url: https://api.tavily.com/search
+2025-01-31 12:23:52 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.872s
+2025-01-31 12:24:48 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 12:24:48 | INFO | Processing prediction request with id: 1
+2025-01-31 12:24:49 | ERROR | Internal error processing request 1: 422 Client Error: Unprocessable Entity for url: https://api.tavily.com/search
+2025-01-31 12:24:49 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.816s
+2025-01-31 12:27:06 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 12:27:06 | INFO | Processing prediction request with id: 1
+2025-01-31 12:27:14 | ERROR | Internal error processing request 1: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-01-31 12:27:14 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 8.197s
+2025-01-31 12:32:57 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 12:32:57 | INFO | Processing prediction request with id: 1
+2025-01-31 12:33:56 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 12:33:56 | INFO | Processing prediction request with id: 1
+2025-01-31 12:34:03 | ERROR | Internal error processing request 1: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-01-31 12:34:03 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 7.655s
+2025-01-31 12:37:46 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 12:37:46 | INFO | Processing prediction request with id: 1
+2025-01-31 12:38:40 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 12:38:40 | INFO | Processing prediction request with id: 1
+2025-01-31 12:40:11 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 12:40:11 | INFO | Processing prediction request with id: 1
+2025-01-31 12:40:24 | ERROR | Internal error processing request 1: Expected a Runnable, callable or dict.Instead got an unsupported type: <class 'str'>
+2025-01-31 12:40:24 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 13.416s
+2025-01-31 12:42:04 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 12:42:04 | INFO | Processing prediction request with id: 1
+2025-01-31 12:42:16 | INFO | Successfully processed request 1
+2025-01-31 12:42:16 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"2. Санкт-Петербург","sources":["https://itmo.ru/ru/page/89/1._osnovnye_svedeniya.htm","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://pts-svargo.ru/projects/gos/kampus-universiteta-itmo/"]}
+Duration: 12.372s
+2025-01-31 12:50:00 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Ниж
+}
+2025-01-31 12:50:00 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 422
+Response body: {"detail":[{"type":"json_invalid","loc":["body",128],"msg":"JSON decode error","input":{},"ctx":{"error":"Invalid control character at"}}]}
+Duration: 0.003s
+2025-01-31 12:51:00 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?\n1. 2007\n2. 2009\n3. 2011\n4. 2015",
+  "id": 2
+}
+2025-01-31 12:51:00 | INFO | Processing prediction request with id: 2
+2025-01-31 12:51:09 | INFO | Successfully processed request 2
+2025-01-31 12:51:09 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":2,"answer":3,"reasoning":"В тексте нет информации о том, в каком году Университет ИТМО был включён в число Национальных исследовательских университетов России.","sources":["https://vuzopedia.ru/vuz/1189","https://zaochnik.ru/blog/natsionalnye-issledovatelskie-universitety-rossii/","https://abit.itmo.ru/bachelor"]}
+Duration: 9.144s
+2025-01-31 12:57:31 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Когда будет построен ИТМО Хай парк?\n1. 2027\n2. 2028\n3. 2029\n4. 2025",
+  "id": 3
+}
+2025-01-31 12:57:31 | INFO | Processing prediction request with id: 3
+2025-01-31 12:57:39 | INFO | Successfully processed request 3
+2025-01-31 12:57:39 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":4,"reasoning":"4","sources":["https://news.itmo.ru/ru/startups_and_business/partnership/news/13660/","https://spb.vedomosti.ru/business/articles/2023/08/30/992685-itmo-haipark","https://itmohighpark.ru/news/biznes-park-v-itmo-xaipark-zapustiat-k-2025-godu"]}
+Duration: 7.667s
+2025-01-31 13:32:43 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Когда будет построен ИТМО Хай парк?\n1. 2027\n2. 2028\n3. 2029\n4. 2025",
+  "id": 3
+}
+2025-01-31 13:32:43 | INFO | Processing prediction request with id: 3
+2025-01-31 13:32:46 | ERROR | Internal error processing request 3: GetInfoFromURL() missing 2 required positional arguments: 'question' and 'model'
+2025-01-31 13:32:46 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 2.769s
+2025-01-31 13:33:20 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Когда будет построен ИТМО Хай парк?\n1. 2027\n2. 2028\n3. 2029\n4. 2025",
+  "id": 3
+}
+2025-01-31 13:33:20 | INFO | Processing prediction request with id: 3
+2025-01-31 13:33:36 | ERROR | Internal error processing request 3: [Errno 11] write could not complete without blocking
+2025-01-31 13:33:36 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 16.448s
+2025-01-31 13:34:34 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Когда будет построен ИТМО Хай парк?\n1. 2027\n2. 2028\n3. 2029\n4. 2025",
+  "id": 3
+}
+2025-01-31 13:34:34 | INFO | Processing prediction request with id: 3
+2025-01-31 13:34:55 | ERROR | Validation error for request 3: invalid literal for int() with base 10: 'В ответе указан номер 4.'
+2025-01-31 13:34:55 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"invalid literal for int() with base 10: 'В ответе указан номер 4.'"}
+Duration: 20.857s
+2025-01-31 13:35:54 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?\n1. 2007\n2. 2009\n3. 2011\n4. 2015",
+  "id": 2
+}
+2025-01-31 13:35:54 | INFO | Processing prediction request with id: 2
+2025-01-31 13:36:48 | ERROR | Validation error for request 2: invalid literal for int() with base 10: 'Университет ИТМО был включён в число Национальных исследовательских университетов России в 2009 году.'
+2025-01-31 13:36:49 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"invalid literal for int() with base 10: 'Университет ИТМО был включён в число Национальных исследовательских университетов России в 2009 году.'"}
+Duration: 54.250s
+2025-01-31 13:43:28 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?\n1. 2007\n2. 2009\n3. 2011\n4. 2015",
+  "id": 2
+}
+2025-01-31 13:43:28 | INFO | Processing prediction request with id: 2
+2025-01-31 13:48:40 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком году Университет ИТМО был включён в число Национальных исследовательских университетов России?\n1. 2007\n2. 2009\n3. 2011\n4. 2015",
+  "id": 2
+}
+2025-01-31 13:48:40 | INFO | Processing prediction request with id: 2
+2025-01-31 13:49:01 | INFO | Successfully processed request 2
+2025-01-31 13:49:01 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":2,"answer":2,"reasoning":"2","sources":["https://itmo.ru/ru/","https://edu.itmo.ru/ru/","https://www.banki.ru/wikibank/itmo_prohodnye_bally/"]}
+Duration: 21.520s
+2025-01-31 13:49:24 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Когда будет построен ИТМО Хай парк?\n1. 2027\n2. 2028\n3. 2029\n4. 2025",
+  "id": 3
+}
+2025-01-31 13:49:24 | INFO | Processing prediction request with id: 3
+2025-01-31 13:51:24 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Когда будет построен ИТМО Хай парк?\n1. 2027\n2. 2028\n3. 2029\n4. 2025",
+  "id": 3
+}
+2025-01-31 13:51:24 | INFO | Processing prediction request with id: 3
+2025-01-31 13:51:36 | INFO | Successfully processed request 3
+2025-01-31 13:51:36 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":4,"reasoning":"4","sources":["https://news.itmo.ru/en/startups_and_business/partnership/news/13660/","https://news.itmo.ru/ru/startups_and_business/partnership/news/13660/","https://cn.itmo.ru/cn/"]}
+Duration: 11.945s
+2025-01-31 13:53:22 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Когда будет построен ИТМО Хай парк?\n1. 2027\n2. 2028\n3. 2029\n4. 2025",
+  "id": 3
+}
+2025-01-31 13:53:22 | INFO | Processing prediction request with id: 3
+2025-01-31 13:53:32 | INFO | Successfully processed request 3
+2025-01-31 13:53:32 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":4,"reasoning":"4","sources":["https://news.itmo.ru/en/startups_and_business/partnership/news/13660/","https://news.itmo.ru/ru/startups_and_business/partnership/news/13660/","https://cn.itmo.ru/cn/"]}
+Duration: 9.688s
+2025-01-31 13:54:17 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Когда будет построен ИТМО Хай парк?\n1. 2027\n2. 2028\n3. 2029\n4. 2025",
+  "id": 3
+}
+2025-01-31 13:54:17 | INFO | Processing prediction request with id: 3
+2025-01-31 13:54:25 | INFO | Successfully processed request 3
+2025-01-31 13:54:25 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":4,"reasoning":"4","sources":["https://news.itmo.ru/en/startups_and_business/partnership/news/13660/","https://news.itmo.ru/ru/startups_and_business/partnership/news/13660/","https://cn.itmo.ru/cn/"]}
+Duration: 8.505s
+2025-01-31 13:55:41 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Когда будет построен ИТМО Хай парк?\n1. 2027\n2. 2028\n3. 2029\n4. 2025",
+  "id": 3
+}
+2025-01-31 13:55:41 | INFO | Processing prediction request with id: 3
+2025-01-31 13:55:48 | INFO | Successfully processed request 3
+2025-01-31 13:55:48 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":4,"reasoning":"В тексте нет прямого ответа на вопрос о сроках завершения строительства ИТМО Хайпарк. Однако можно предположить, что правильным ответом будет вариант 4 — 2025 год.","sources":["https://news.itmo.ru/en/startups_and_business/partnership/news/13660/","https://news.itmo.ru/ru/startups_and_business/partnership/news/13660/","https://cn.itmo.ru/cn/"]}
+Duration: 6.663s
+2025-01-31 13:56:46 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Когда будет построен ИТМО Хай парк?\n1. 2027\n2. 2028\n3. 2029\n4. 2025",
+  "id": 3
+}
+2025-01-31 13:56:46 | INFO | Processing prediction request with id: 3
+2025-01-31 13:56:52 | ERROR | Validation error for request 3: invalid literal for int() with base 10: 'Когда будет построен ИТМО Хай парк?\n4. 2025'
+2025-01-31 13:56:52 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"invalid literal for int() with base 10: 'Когда будет построен ИТМО Хай парк?\\n4. 2025'"}
+Duration: 5.715s
+2025-01-31 13:59:37 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Когда будет построен ИТМО Хай парк?\n1. 2027\n2. 2028\n3. 2029\n4. 2025",
+  "id": 3
+}
+2025-01-31 13:59:37 | INFO | Processing prediction request with id: 3
+2025-01-31 13:59:45 | INFO | Successfully processed request 3
+2025-01-31 13:59:45 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":4,"reasoning":"В тексте нет прямого ответа на вопрос о точных сроках завершения строительства ИТМО Хайпарка. Можно предположить, что исходя из контекста, правильным ответом будет вариант **4 — 2025 год**. Однако для точного ответа необходимо дождаться официальной информации от представителей проекта.","sources":["https://news.itmo.ru/en/startups_and_business/partnership/news/13660/","https://news.itmo.ru/ru/startups_and_business/partnership/news/13660/","https://cn.itmo.ru/cn/"]}
+Duration: 8.180s
+2025-01-31 14:02:21 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Когда будет построен ИТМО Хай парк?\n1. 2027\n2. 2028\n3. 2029\n4. 2025",
+  "id": 3
+}
+2025-01-31 14:02:21 | INFO | Processing prediction request with id: 3
+2025-01-31 14:02:30 | ERROR | Validation error for request 3: 1 validation error for PredictionResponse
+answer
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='null', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_parsing
+2025-01-31 14:02:30 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"1 validation error for PredictionResponse\nanswer\n  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='null', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/int_parsing"}
+Duration: 9.789s
+2025-01-31 14:03:32 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Когда будет построен ИТМО Хай парк?\n1. 2027\n2. 2028\n3. 2029\n4. 2025",
+  "id": 3
+}
+2025-01-31 14:03:32 | INFO | Processing prediction request with id: 3
+2025-01-31 14:03:40 | ERROR | Validation error for request 3: invalid literal for int() with base 10: 'Ответ на вопрос: 4.'
+2025-01-31 14:03:40 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"invalid literal for int() with base 10: 'Ответ на вопрос: 4.'"}
+Duration: 7.764s
+2025-01-31 14:05:18 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Я сейчас учусь в Университете ИТМО, но хочу поступить на первый курс другого факультета. Могу ли я поступить по результатам ЕГЭ прошлого года?,
+  "id": 3
+}
+2025-01-31 14:05:18 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 422
+Response body: {"detail":[{"type":"json_invalid","loc":["body",157],"msg":"JSON decode error","input":{},"ctx":{"error":"Invalid control character at"}}]}
+Duration: 0.004s
+2025-01-31 14:05:35 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Я сейчас учусь в Университете ИТМО, но хочу поступить на первый курс другого факультета. Могу ли я поступить по результатам ЕГЭ прошлого года?",
+  "id": 3
+}
+2025-01-31 14:05:35 | INFO | Processing prediction request with id: 3
+2025-01-31 14:05:43 | INFO | Successfully processed request 3
+2025-01-31 14:05:43 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Да, вы можете поступить по результатам ЕГЭ прошлого года.","sources":["https://www.banki.ru/wikibank/itmo_prohodnye_bally/","https://www.banki.ru/news/daytheme/?id=10995217","https://mobile.banki.ru/"]}
+Duration: 7.956s
+2025-01-31 14:07:33 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Сколько на данный момент находится факультетов ИТМО в санкт-петербурге?\n1. 2\n2. 3\n3. 11\n4. 211",
+  "id": 3
+}
+2025-01-31 14:07:33 | INFO | Processing prediction request with id: 3
+2025-01-31 14:07:39 | INFO | Successfully processed request 3
+2025-01-31 14:07:39 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"2","sources":["https://itmo.ru/ru/page/169/obrazovanie.htm","https://cn.itmo.ru/cn/","https://abit.itmo.ru/programs/master"]}
+Duration: 6.318s
+2025-01-31 14:09:28 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Сколько на данный момент находится факультетов ИТМО в санкт-петербурге?\n1. 2\n2. 3\n3. 11\n4. 211",
+  "id": 3
+}
+2025-01-31 14:09:28 | INFO | Processing prediction request with id: 3
+2025-01-31 14:09:44 | ERROR | Validation error for request 3: invalid literal for int() with base 10: 'Сколько на данный момент находится факультетов ИТМО в Санкт-Петербурге?'
+2025-01-31 14:09:44 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"invalid literal for int() with base 10: 'Сколько на данный момент находится факультетов ИТМО в Санкт-Петербурге?'"}
+Duration: 16.455s
+2025-01-31 14:13:25 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Сколько на данный момент находится факультетов ИТМО в санкт-петербурге?\n1. 2\n2. 3\n3. 11\n4. 211",
+  "id": 3
+}
+2025-01-31 14:13:25 | INFO | Processing prediction request with id: 3
+2025-01-31 14:13:31 | ERROR | Validation error for request 3: invalid literal for int() with base 10: 'Сколько на данный момент находится факультетов ИТМО в Санкт-Петербурге?'
+2025-01-31 14:13:31 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"invalid literal for int() with base 10: 'Сколько на данный момент находится факультетов ИТМО в Санкт-Петербурге?'"}
+Duration: 5.273s
+2025-01-31 14:20:29 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Сколько на данный момент находится факультетов ИТМО в санкт-петербурге?\n1. 2\n2. 3\n3. 11\n4. 211",
+  "id": 3
+}
+2025-01-31 14:20:29 | INFO | Processing prediction request with id: 3
+2025-01-31 14:20:38 | ERROR | Validation error for request 3: invalid literal for int() with base 10: 'Ты — помощник по поиску информации. Ты получишь запроса от пользователя и несколько текстовых документов (ответов). Твоя задача — предоставить краткий и содержательный ответ, основанный исключительно
+2025-01-31 14:20:38 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"invalid literal for int() with base 10: 'Ты — помощник по поиску информации. Ты получишь запроса от пользователя и несколько текстовых документов (ответов). Твоя задача — предоставить краткий и содержательный ответ, основанный исключительно"}
+Duration: 8.991s
+2025-01-31 14:22:45 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Сколько на данный момент находится факультетов ИТМО в санкт-петербурге?\n1. 2\n2. 3\n3. 11\n4. 211",
+  "id": 3
+}
+2025-01-31 14:22:45 | INFO | Processing prediction request with id: 3
+2025-01-31 14:22:50 | ERROR | Validation error for request 3: invalid literal for int() with base 10: 'Ответ: информация отсутствует.'
+2025-01-31 14:22:50 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"invalid literal for int() with base 10: 'Ответ: информация отсутствует.'"}
+Duration: 4.625s
+2025-01-31 14:23:37 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Сколько на данный момент находится факультетов ИТМО в санкт-петербурге?\n1. 2\n2. 3\n3. 11\n4. 211",
+  "id": 3
+}
+2025-01-31 14:23:37 | INFO | Processing prediction request with id: 3
+2025-01-31 14:23:50 | ERROR | Validation error for request 3: invalid literal for int() with base 10: 'Пожалуйста, посмотри на следующий текст и ответь на вопрос, используя информацию из этого текста.\n    Ответ должен быть в формате: номер варианта — объяснение.\n    Если в тексте нет нужной информац
+2025-01-31 14:23:50 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"invalid literal for int() with base 10: 'Пожалуйста, посмотри на следующий текст и ответь на вопрос, используя информацию из этого текста.\\n    Ответ должен быть в формате: номер варианта — объяснение.\\n    Если в тексте нет нужной информац"}
+Duration: 12.587s
+2025-01-31 14:25:05 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Сколько на данный момент находится факультетов ИТМО в санкт-петербурге?\n1. 2\n2. 3\n3. 11\n4. 211",
+  "id": 3
+}
+2025-01-31 14:25:05 | INFO | Processing prediction request with id: 3
+2025-01-31 14:25:09 | ERROR | Internal error processing request 3: [Errno 11] write could not complete without blocking
+2025-01-31 14:25:09 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 4.567s
+2025-01-31 14:26:17 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Сколько на данный момент находится факультетов ИТМО в санкт-петербурге?\n1. 2\n2. 3\n3. 11\n4. 211",
+  "id": 3
+}
+2025-01-31 14:26:17 | INFO | Processing prediction request with id: 3
+2025-01-31 14:26:20 | ERROR | Internal error processing request 3: [Errno 11] write could not complete without blocking
+2025-01-31 14:26:20 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 3.298s
+2025-01-31 14:28:08 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Сколько на данный момент находится факультетов ИТМО в санкт-петербурге?\n1. 2\n2. 3\n3. 11\n4. 211",
+  "id": 3
+}
+2025-01-31 14:28:08 | INFO | Processing prediction request with id: 3
+2025-01-31 14:28:11 | INFO | Successfully processed request 3
+2025-01-31 14:28:11 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"3. 15","sources":["https://itmo.ru/ru/page/144/universitet_segodnya.htm","https://itmo.ru/ru/page/169/obrazovanie.htm","https://abit.itmo.ru/programs/master"]}
+Duration: 3.846s
+2025-01-31 14:33:13 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Сколько на данный момент находится факультетов ИТМО в санкт-петербурге?\n1. 2\n2. 3\n3. 11\n4. 211",
+  "id": 3
+}
+2025-01-31 14:33:13 | INFO | Processing prediction request with id: 3
+2025-01-31 14:33:16 | ERROR | Internal error processing request 3: [Errno 11] write could not complete without blocking
+2025-01-31 14:33:16 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 3.325s
+2025-01-31 14:39:48 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Сколько на данный момент находится факультетов ИТМО в санкт-петербурге?\n1. 2\n2. 3\n3. 11\n4. 211",
+  "id": 3
+}
+2025-01-31 14:39:48 | INFO | Processing prediction request with id: 3
+2025-01-31 14:39:53 | INFO | Successfully processed request 3
+2025-01-31 14:39:53 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"3. 15","sources":["https://itmo.ru/ru/page/144/universitet_segodnya.htm","https://itmo.ru/ru/page/169/obrazovanie.htm","https://abit.itmo.ru/programs/master"]}
+Duration: 4.875s
+2025-01-31 14:42:45 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Сколько на данный момент находится факультетов ИТМО в санкт-петербурге?\n1. 2\n2. 3\n3. 11\n4. 211",
+  "id": 3
+}
+2025-01-31 14:42:45 | INFO | Processing prediction request with id: 3
+2025-01-31 14:42:50 | INFO | Successfully processed request 3
+2025-01-31 14:42:50 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"На данный момент в ИТМО в Санкт-Петербурге находится 11 факультетов.","sources":["https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82%D1%8B_%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0_%D0%98%D0%A2%D0%9C%D0%9E","https://spb.postupi.online/vuz/universitet-itmo/podrazdeleniya/fakultety/","https://www.kp.ru/edu/sankt-peterburg/niu-itmo/"]}
+Duration: 4.652s
+2025-01-31 14:46:11 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+      "id": 2,
+      "query": "В каком году был основан Университет ИТМО?"
+    }
+2025-01-31 14:46:11 | INFO | Processing prediction request with id: 2
+2025-01-31 14:46:16 | INFO | Successfully processed request 2
+2025-01-31 14:46:16 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":2,"answer":1904,"reasoning":"В интернете есть много сайтов с информацией на эту тему. [Посмотрите, что нашлось в поиске](https://ya.ru)","sources":["https://wp.wiki-wiki.ru/wp/index.php/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://museum.itmo.ru/page/128/","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E"]}
+Duration: 4.405s
+2025-01-31 14:49:35 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+      "id": 2,
+      "query": "В каком году был основан Университет ИТМО?"
+    }
+2025-01-31 14:49:35 | INFO | Processing prediction request with id: 2
+2025-01-31 14:49:39 | INFO | Successfully processed request 2
+2025-01-31 14:49:39 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":2,"answer":1900,"reasoning":"Университет ИТМО основан в 1900 году.","sources":["https://ru.wikipedia.org/wiki/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0_%D0%98%D0%A2%D0%9C%D0%9E","https://wp.wiki-wiki.ru/wp/index.php/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://museum.itmo.ru/page/128/"]}
+Duration: 4.152s
+2025-01-31 15:59:06 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Какое направление является одним из основных в Университете ИТМО?
+
+1. Искусство
+2. Медицина
+3. Информационные технологии
+4. Социология",
+  "id": 3
+}
+2025-01-31 15:59:06 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 422
+Response body: {"detail":[{"type":"json_invalid","loc":["body",79],"msg":"JSON decode error","input":{},"ctx":{"error":"Invalid control character at"}}]}
+Duration: 0.002s
+2025-01-31 15:59:58 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Какое направление является одним из основных в Университете ИТМО?\n1. Искусство\n2.Медицина\n3. Информационные технологии\n4. Социология",
+  "id": 3
+}
+2025-01-31 15:59:58 | INFO | Processing prediction request with id: 3
+2025-01-31 16:00:04 | INFO | Successfully processed request 3
+2025-01-31 16:00:04 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"В интернете есть много сайтов с информацией на эту тему. [Посмотрите, что нашлось в поиске](https://ya.ru)","sources":["https://abit.itmo.ru/programs/bachelor","https://edu.itmo.ru/ru/edu_levels/","https://edu.itmo.ru/ru/bachelor/"]}
+Duration: 6.403s
+2025-01-31 16:01:09 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Какое международное сотрудничество активно развивает ИТМО?\n1. Сотрудничество с университетами США\n2. Сотрудничество с университетами Европы и Азии\n3. Сотрудничество с университетами Африки\n4. Сотрудничество с университетами Австралии
+",
+  "id": 3
+}
+2025-01-31 16:01:09 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 422
+Response body: {"detail":[{"type":"json_invalid","loc":["body",251],"msg":"JSON decode error","input":{},"ctx":{"error":"Invalid control character at"}}]}
+Duration: 0.002s
+2025-01-31 16:01:23 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Какое международное сотрудничество активно развивает ИТМО?\n1. Сотрудничество с университетами США\n2. Сотрудничество с университетами Европы и Азии\n3. Сотрудничество с университетами Африки\n4. Сотрудничество с университетами Австралии",
+  "id": 3
+}
+2025-01-31 16:01:23 | INFO | Processing prediction request with id: 3
+2025-01-31 16:01:28 | INFO | Successfully processed request 3
+2025-01-31 16:01:28 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"2. Сотрудничество с университетами Европы и Азии","sources":["https://ims.itmo.ru/eng/","https://oia.ugm.ac.id/2024/11/07/itmo-university-winter-school-2025/","https://int.itmo.ru/en/"]}
+Duration: 5.001s
+2025-01-31 16:02:07 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Какой проект был запущен в ИТМО для поддержки стартапов?\n1. ITMO Accelerator\n2. ITMO Innovation Hub\n3. ITMO Business School\n4. ITMO Research Center",
+  "id": 3
+}
+2025-01-31 16:02:07 | INFO | Processing prediction request with id: 3
+2025-01-31 16:02:14 | INFO | Successfully processed request 3
+2025-01-31 16:02:14 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"1. ITMO Accelerator","sources":["https://luxinnovation.lu/find-funding","https://www.usi.ch/en/innovation/innovate/usi-transfer/startup"]}
+Duration: 7.786s
+2025-01-31 16:03:44 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Какой из следующих языков программирования чаще всего изучают студенты ИТМО?\n1. Java\n2. C++\n3. Python\n4. Все перечисленные",
+  "id": 3
+}
+2025-01-31 16:03:44 | INFO | Processing prediction request with id: 3
+2025-01-31 16:03:53 | INFO | Successfully processed request 3
+2025-01-31 16:03:53 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":4,"reasoning":"В тексте нет прямого ответа на вопрос о том, какой из перечисленных языков программирования чаще всего изучают студенты ИТМО.","sources":["https://tsaristrussia.ru/faq/kakie-yazyki-programmirovaniya-izucayut-v-vuzax","https://habr.com/ru/companies/mws/articles/341486/","https://umschool.net/journal/prof/yazyki-programmirovaniya-python-i-drugie-zveri/"]}
+Duration: 9.278s
+2025-01-31 16:04:38 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе расположен Университет ИТМО\n1. Москва\n2. Санкт-Петербург\n3. Казань\n4. Новосибирск",
+  "id": 3
+}
+2025-01-31 16:04:38 | INFO | Processing prediction request with id: 3
+2025-01-31 16:04:43 | INFO | Successfully processed request 3
+2025-01-31 16:04:43 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":2,"reasoning":"В интернете есть много сайтов с информацией на эту тему. [Посмотрите, что нашлось в поиске](https://ya.ru)","sources":["https://en.wikipedia.org/wiki/ITMO_University","https://ru.wikipedia.org/wiki/%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82_%D0%98%D0%A2%D0%9C%D0%9E","https://itmo.ru/ru/page/89/1._osnovnye_svedeniya.htm"]}
+Duration: 4.736s
+2025-01-31 16:05:09 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Какой из следующих проектов ИТМО связан с искусственным интеллектом?\n1. ITMO AI Lab\n2. ITMO Smart City\n3. ITMO Cybersecurity Center\n4. ITMO Data Science Institute",
+  "id": 3
+}
+2025-01-31 16:05:09 | INFO | Processing prediction request with id: 3
+2025-01-31 16:05:14 | INFO | Successfully processed request 3
+2025-01-31 16:05:14 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":4,"reasoning":"4. ITMO Data Science Institute","sources":["https://abit.itmo.ru/program/master/ai","https://news.itmo.ru/en/science/it/news/12966/","https://itmo.ru/ru/viewdepartment/499/issledovatelskiy_centr_v_sfere_iskusstvennogo_intellekta_silnyy_iskusstvennyy_intellekt_v_promyshlennosti.htm"]}
+Duration: 4.818s
+2025-01-31 16:06:43 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Есть ли курсы тестировщика у ИТМО?",
+  "id": 3
+}
+2025-01-31 16:06:43 | INFO | Processing prediction request with id: 3
+2025-01-31 16:06:48 | INFO | Successfully processed request 3
+2025-01-31 16:06:48 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"В тексте нет информации о том, есть ли курсы тестировщика у ИТМО.","sources":["https://dirgroup.ru/online","https://cdpo.itmo.ru/testers","https://timeweb.com/ru/community/articles/20-kursov-testirovshchika-qa-inzhenera-obuchenie-s-nulya"]}
+Duration: 4.937s
+2025-01-31 16:08:10 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Есть ли курсы тестировщика у ИТМО?",
+  "id": 3
+}
+2025-01-31 16:08:10 | INFO | Processing prediction request with id: 3
+2025-01-31 16:08:15 | INFO | Successfully processed request 3
+2025-01-31 16:08:15 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"В тексте нет информации о том, есть ли курсы тестировщика у ИТМО.","sources":["https://cdpo.itmo.ru/testers","https://dirgroup.ru/online","https://blog.skillfactory.ru/gde-i-kak-uchitsya-na-testirovschika/"]}
+Duration: 4.573s
+2025-01-31 16:09:06 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Есть ли курсы тестировщика у ИТМО?",
+  "id": 3
+}
+2025-01-31 16:09:06 | INFO | Processing prediction request with id: 3
+2025-01-31 16:09:11 | INFO | Successfully processed request 3
+2025-01-31 16:09:11 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"В тексте нет информации о том, есть ли курсы тестировщика у ИТМО.","sources":["https://cdpo.itmo.ru/testers","https://dirgroup.ru/online","https://blog.skillfactory.ru/gde-i-kak-uchitsya-na-testirovschika/"]}
+Duration: 4.337s
+2025-01-31 16:10:01 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Есть ли курсы тестировщика ПО у ИТМО?",
+  "id": 3
+}
+2025-01-31 16:10:01 | INFO | Processing prediction request with id: 3
+2025-01-31 16:10:09 | INFO | Successfully processed request 3
+2025-01-31 16:10:09 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"В тексте нет информации о том, есть ли курсы тестировщика ПО у ИТМО.","sources":["https://cdpo.itmo.ru/testers","https://vk.com/wall-33183020_13983","https://dirgroup.ru/online"]}
+Duration: 8.803s
+2025-01-31 16:10:59 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Есть ли курсы тестировщика ПО у ИТМО?",
+  "id": 3
+}
+2025-01-31 16:10:59 | INFO | Processing prediction request with id: 3
+2025-01-31 16:11:03 | INFO | Successfully processed request 3
+2025-01-31 16:11:03 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Да, в тексте указано, что ИТМО предлагает курсы по тестированию ПО.","sources":["https://cdpo.itmo.ru/testers","https://vk.com/wall-33183020_13983","https://dirgroup.ru/online"]}
+Duration: 4.257s
+2025-01-31 16:14:18 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Назови ректора ИТМО",
+  "id": 3
+}
+2025-01-31 16:14:18 | INFO | Processing prediction request with id: 3
+2025-01-31 16:14:23 | INFO | Successfully processed request 3
+2025-01-31 16:14:23 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"Ректор ИТМО — Владимир Васильев.","sources":["https://itmo.ru/ru/viewphonecard/83129/rektorat.htm?type=administration","https://www.sobaka.ru/city/science/151045","https://www.dp.ru/a/2018/03/22/Rektora_Universiteta_ITMO"]}
+Duration: 5.457s
+2025-01-31 16:16:45 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Сколько баллов по ЕГЭ нужно для поступления в ИТМО",
+  "id": 3
+}
+2025-01-31 16:16:45 | INFO | Processing prediction request with id: 3
+2025-01-31 16:16:52 | ERROR | Validation error for request 3: 1 validation error for PredictionResponse
+answer
+  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='null', input_type=str]
+    For further information visit https://errors.pydantic.dev/2.10/v/int_parsing
+2025-01-31 16:16:52 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 400
+Response body: {"detail":"1 validation error for PredictionResponse\nanswer\n  Input should be a valid integer, unable to parse string as an integer [type=int_parsing, input_value='null', input_type=str]\n    For further information visit https://errors.pydantic.dev/2.10/v/int_parsing"}
+Duration: 6.126s
+2025-01-31 16:18:08 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Сколько баллов по ЕГЭ нужно для поступления в ИТМО",
+  "id": 3
+}
+2025-01-31 16:18:08 | INFO | Processing prediction request with id: 3
+2025-01-31 16:18:13 | INFO | Successfully processed request 3
+2025-01-31 16:18:13 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":-1,"reasoning":"Для поступления в ИТМО необходимо набрать не менее 60 баллов по каждому общеобразовательному предмету, соответствующему выбранной специальности. Для некоторых специальностей могут быть установлены более высокие требования.","sources":["https://dzen.ru/a/YofAXBTWkWDv0W0U","https://abit.itmo.ru/page/73","https://treeofbonsai.ru/blog/bally-postupleniya-v-itmo-trebovaniya-i-rezultaty/"]}
+Duration: 5.441s
+2025-01-31 16:19:40 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Знаменитые люди закончившие итмо",
+  "id": 3
+}
+2025-01-31 16:19:40 | INFO | Processing prediction request with id: 3
+2025-01-31 16:21:21 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Знаменитые люди закончившие итмо",
+  "id": 3
+}
+2025-01-31 16:21:21 | INFO | Processing prediction request with id: 3
+2025-01-31 16:38:09 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Сколько на данный момент находится факультетов ИТМО в санкт-петербурге?\n1. 2\n2. 3\n3. 11\n4. 211",
+  "id": 3
+}
+2025-01-31 16:38:09 | INFO | Processing prediction request with id: 3
+2025-01-31 16:38:16 | INFO | Successfully processed request 3
+2025-01-31 16:38:16 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"В интернете есть много сайтов с информацией на эту тему. [Посмотрите, что нашлось в поиске](https://ya.ru)","sources":["https://itmo.ru/ru/page/144/universitet_segodnya.htm","https://ru.wikipedia.org/wiki/%D0%A4%D0%B0%D0%BA%D1%83%D0%BB%D1%8C%D1%82%D0%B5%D1%82%D1%8B_%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0_%D0%98%D0%A2%D0%9C%D0%9E","https://spb.postupi.online/vuz/universitet-itmo/podrazdeleniya/fakultety/"]}
+Duration: 7.027s
+2025-01-31 16:38:39 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+      "id": 2,
+      "query": "В каком году был основан Университет ИТМО?"
+    }
+2025-01-31 16:38:39 | INFO | Processing prediction request with id: 2
+2025-01-31 16:38:45 | INFO | Successfully processed request 2
+2025-01-31 16:38:45 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":2,"answer":-1,"reasoning":"В 1900 году.","sources":["https://ru.wikipedia.org/wiki/%D0%98%D1%81%D1%82%D0%BE%D1%80%D0%B8%D1%8F_%D0%A3%D0%BD%D0%B8%D0%B2%D0%B5%D1%80%D1%81%D0%B8%D1%82%D0%B5%D1%82%D0%B0_%D0%98%D0%A2%D0%9C%D0%9E","https://museum.itmo.ru/page/128/","https://en.wikipedia.org/wiki/ITMO_University"]}
+Duration: 6.798s
+2025-01-31 16:43:12 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Какие последние новости у ИТМО?",
+  "id": 3
+}
+2025-01-31 16:43:12 | INFO | Processing prediction request with id: 3
+2025-01-31 16:43:23 | INFO | Successfully processed request 3
+2025-01-31 16:43:23 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"1. В ИТМО разработали способ оценки одноразовой посуды на биоразлагаемость.\n2. Пользователи «ВКонтакте» смогут подтвердить образование с помощью NFT.\n3. На строительство нового корпуса университета ИТМО потратят почти 7 млрд рублей.\n4. Власти Петербурга не планируют сносить обрушившийся корпус ИТМО.\n5. Университет ИТМО и Siemens открыли научно-исследовательскую лабораторию.","sources":["https://technopark.itmo.ru/news","https://news.itmo.ru/","https://abnews.ru/tag/itmo"]}
+Duration: 10.095s
+2025-01-31 16:43:54 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Какие последние новости у ИТМО?",
+  "id": 3
+}
+2025-01-31 16:43:55 | INFO | Processing prediction request with id: 3
+2025-01-31 16:44:06 | INFO | Successfully processed request 3
+2025-01-31 16:44:06 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":3,"reasoning":"1. Открытие российских физиков улучшит работу приборов для извлечения клеток из крови.\n2. ИТМО будет участвовать в разработке портативных лабораторий для школ РФ.\n3. Созданы индикаторы срока годности для упаковки продуктов.\n4. В университете ИТМО открылся новый корпус Передовой инженерной школы.\n5. Воссоздана деталь мозга для будущего зрячего искусственного глаза.\n6. Опубликован топ претендентов на главное слово года.\n7. В ИТМО назвали способы распознать дипфейк.\n8. Команда из России выиграла в чемпионате по робототехнике в Бразилии.\n9. Создан материал для терапии меланомы с помощью нагрева.\n10. Юные исследователи представили уникальные ИИ-проекты в Санкт-Петербурге.","sources":["https://plainnews.ru/itmo","https://abnews.ru/tag/itmo","https://news.itmo.ru/"]}
+Duration: 11.103s
+2025-01-31 16:44:50 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Какие последние новости у ИТМО?",
+  "id": 3
+}
+2025-01-31 16:44:50 | INFO | Processing prediction request with id: 3
+2025-01-31 16:44:59 | INFO | Successfully processed request 3
+2025-01-31 16:44:59 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":-1,"reasoning":"1. Открытие российских физиков улучшит работу приборов для извлечения клеток из крови.\n2. В ИТМО назвали способы распознать дипфейк.\n3. Студенты Королева будут разрабатывать проекты с университетом Санкт-Петербурга.\n4. «Роснефть» и Университет ИТМО подписали соглашение о технологическом сотрудничестве.\n5. Создан рекордно маленький нанолазер для сверхкомпактных чипов.\n6. В Петербурге разработали научно-просветительский ресурс «Пушкин цифровой».","sources":["https://plainnews.ru/itmo","https://abnews.ru/tag/itmo","https://news.itmo.ru/"]}
+Duration: 8.492s
+2025-01-31 16:45:06 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Когда будет построен ИТМО Хай парк?\n1. 2027\n2. 2028\n3. 2029\n4. 2025",
+  "id": 3
+}
+2025-01-31 16:45:06 | INFO | Processing prediction request with id: 3
+2025-01-31 16:45:13 | INFO | Successfully processed request 3
+2025-01-31 16:45:13 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":-1,"reasoning":"4. 2025","sources":["https://nsp.ru/36988-oficialno-startovalo-stroitelstvo-centra-itmo-xaipark","https://saint-petersburg.ru/news/2023/8/30/8032","https://news.itmo.ru/ru/startups_and_business/partnership/news/13660/"]}
+Duration: 6.958s
+2025-01-31 16:46:17 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Когда будет построен ИТМО Хай парк?\n1. 2027\n2. 2028\n3. 2029\n4. 2025",
+  "id": 3
+}
+2025-01-31 16:46:17 | INFO | Processing prediction request with id: 3
+2025-01-31 16:46:23 | INFO | Successfully processed request 3
+2025-01-31 16:46:23 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":-1,"reasoning":"1","sources":["https://rb.ru/news/itmo-highpark/","https://abnews.ru/szfo/news/spb/2023/11/21/biznes-park-v-itmo-hajpark-planiruyut-zapustit-k-2025-godu","https://news.itmo.ru/ru/startups_and_business/partnership/news/13660/"]}
+Duration: 5.889s
+2025-01-31 16:46:40 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Когда будет построен ИТМО Хай парк?\n1. 2027\n2. 2028\n3. 2029\n4. 2025",
+  "id": 3
+}
+2025-01-31 16:46:40 | INFO | Processing prediction request with id: 3
+2025-01-31 16:46:48 | INFO | Successfully processed request 3
+2025-01-31 16:46:48 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":4,"reasoning":"4. 2025","sources":["https://nsp.ru/36988-oficialno-startovalo-stroitelstvo-centra-itmo-xaipark","https://saint-petersburg.ru/news/2023/8/30/8032","https://news.itmo.ru/ru/startups_and_business/partnership/news/13660/"]}
+Duration: 7.648s
+2025-01-31 16:47:18 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 16:47:18 | INFO | Processing prediction request with id: 1
+2025-01-31 16:47:24 | INFO | Successfully processed request 1
+2025-01-31 16:47:24 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"В интернете есть много сайтов с информацией на эту тему. [Посмотрите, что нашлось в поиске](https://ya.ru)","sources":["https://itmo.ru/ru/page/89/1._osnovnye_svedeniya.htm","https://student.itmo.ru/ru/kronverkskiy/","https://itmo.ru/ru/map/karta_korpusov.htm"]}
+Duration: 5.773s
+2025-01-31 16:48:17 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "В каком городе находится главный кампус Университета ИТМО?\n1. Москва\n2. Санкт-Петербург\n3. Екатеринбург\n4. Нижний Новгород",
+  "id": 1
+}
+2025-01-31 16:48:17 | INFO | Processing prediction request with id: 1
+2025-01-31 16:48:24 | INFO | Successfully processed request 1
+2025-01-31 16:48:24 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":1,"answer":2,"reasoning":"В интернете есть много сайтов с информацией на эту тему. [Посмотрите, что нашлось в поиске](https://ya.ru)","sources":["https://itmo.ru/ru/page/89/1._osnovnye_svedeniya.htm","https://student.itmo.ru/ru/kronverkskiy/","https://itmo.ru/ru/map/karta_korpusov.htm"]}
+Duration: 6.927s
+2025-01-31 16:48:48 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Я сейчас учусь в Университете ИТМО, но хочу поступить на первый курс другого факультета. Могу ли я поступить по результатам ЕГЭ прошлого года?",
+  "id": 3
+}
+2025-01-31 16:48:48 | INFO | Processing prediction request with id: 3
+2025-01-31 16:48:59 | INFO | Successfully processed request 3
+2025-01-31 16:48:59 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"1. Да, можете. \n2. Но сначала вам необходимо отчислиться из состава студентов того факультета, где уже обучаетесь, получить документы и подать их заново в приёмную комиссию Университета ИТМО в рамках установленных сроков.","sources":["https://vk.com/abit.itmo","https://abit.itmo.ru/faq","https://kursagent.ru/perepostuplenie-osobennosti-postupleniya-v-vuz-vo-vtoroj-raz/"]}
+Duration: 10.976s
+2025-01-31 14:04:03 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Я сейчас учусь в Университете ИТМО, но хочу поступить на первый курс другого факультета. Могу ли я поступить по результатам ЕГЭ прошлого года?",
+  "id": 3
+}
+2025-01-31 14:04:03 | INFO | Processing prediction request with id: 3
+2025-01-31 14:04:03 | ERROR | Internal error processing request 3: IsEnumerated() takes 1 positional argument but 2 were given
+2025-01-31 14:04:03 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.011s
+2025-01-31 14:39:31 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Я сейчас учусь в Университете ИТМО, но хочу поступить на первый курс другого факультета. Могу ли я поступить по результатам ЕГЭ прошлого года?",
+  "id": 3
+}
+2025-01-31 14:39:31 | INFO | Processing prediction request with id: 3
+2025-01-31 14:39:31 | ERROR | Internal error processing request 3: IsEnumerated() takes 1 positional argument but 2 were given
+2025-01-31 14:39:31 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.005s
+2025-01-31 14:45:02 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Сколько на данный момент находится факультетов ИТМО в санкт-петербурге?\n1. 2\n2. 3\n3. 11\n4. 211",
+  "id": 3
+}
+2025-01-31 14:45:02 | INFO | Processing prediction request with id: 3
+2025-01-31 14:45:02 | ERROR | Internal error processing request 3: IsEnumerated() takes 1 positional argument but 2 were given
+2025-01-31 14:45:02 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.012s
+2025-01-31 14:46:20 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Какой проект был запущен в ИТМО для поддержки стартапов?\n1. ITMO Accelerator\n2. ITMO Innovation Hub\n3. ITMO Business School\n4. ITMO Research Center",
+  "id": 3
+}
+2025-01-31 14:46:20 | INFO | Processing prediction request with id: 3
+2025-01-31 14:46:20 | ERROR | Internal error processing request 3: IsEnumerated() takes 1 positional argument but 2 were given
+2025-01-31 14:46:20 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.011s
+2025-01-31 14:46:58 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Какой проект был запущен в ИТМО для поддержки стартапов?\n1. ITMO Accelerator\n2. ITMO Innovation Hub\n3. ITMO Business School\n4. ITMO Research Center",
+  "id": 3
+}
+2025-01-31 14:46:58 | INFO | Processing prediction request with id: 3
+2025-01-31 14:46:58 | ERROR | Internal error processing request 3: IsEnumerated() takes 1 positional argument but 2 were given
+2025-01-31 14:46:58 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.010s
+2025-01-31 14:50:13 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Какой проект был запущен в ИТМО для поддержки стартапов?\n1. ITMO Accelerator\n2. ITMO Innovation Hub\n3. ITMO Business School\n4. ITMO Research Center",
+  "id": 3
+}
+2025-01-31 14:50:13 | INFO | Processing prediction request with id: 3
+2025-01-31 14:50:13 | ERROR | Internal error processing request 3: Cannot create valid authentication object: you need to provide folder_id and either iam token or api_key fields
+2025-01-31 14:50:13 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.031s
+2025-01-31 14:58:13 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Какой проект был запущен в ИТМО для поддержки стартапов?\n1. ITMO Accelerator\n2. ITMO Innovation Hub\n3. ITMO Business School\n4. ITMO Research Center",
+  "id": 3
+}
+2025-01-31 14:58:13 | INFO | Processing prediction request with id: 3
+2025-01-31 14:58:13 | ERROR | Internal error processing request 3: Cannot create valid authentication object: you need to provide folder_id and either iam token or api_key fields
+2025-01-31 14:58:13 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 500
+Response body: {"detail":"Internal server error"}
+Duration: 0.024s
+2025-01-31 15:01:41 | INFO | Incoming request: POST http://localhost:8080/api/request
+Request body: {
+  "query": "Какой проект был запущен в ИТМО для поддержки стартапов?\n1. ITMO Accelerator\n2. ITMO Innovation Hub\n3. ITMO Business School\n4. ITMO Research Center",
+  "id": 3
+}
+2025-01-31 15:01:41 | INFO | Processing prediction request with id: 3
+2025-01-31 15:01:48 | INFO | Successfully processed request 3
+2025-01-31 15:01:48 | INFO | Request completed: POST http://localhost:8080/api/request
+Status: 200
+Response body: {"id":3,"answer":1,"reasoning":"В ИТМО есть стартап-студия и SCAMT Startup Factory, которая работает на базе научного центра SCAMT. Также студенты могут присоединиться к акселератору ИТМО — это практический курс для работы с уже готовым продуктом. Основной упор в нём сделан на развитие маркетинга и продаж. Участники учатся проектировать воронки продаж, привлекать инвестиции, а также проходят путь получения патента. \n\nВ предложенных вариантах ответа нет подходящего названия проекта. Ответ был дан YaGPT.PRO.","sources":["https://news.itmo.ru/ru/startups_and_business/startup/news/13261/","https://www.rbc.ru/industries/news/651fbbc19a7947008ce7b9d8","https://habr.com/ru/companies/friifond/articles/283790/"]}
+Duration: 7.828s

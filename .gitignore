@@ -1,0 +1,4 @@
+cmh
+__pycache__
+.dockerignore
+.env

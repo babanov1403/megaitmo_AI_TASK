@@ -6,8 +6,23 @@ from pydantic import HttpUrl
 from schemas.request import PredictionRequest, PredictionResponse
 from utils.logger import setup_logger
 
+import torch
+import os
+
+import requests_utils
+import ml_tools
+
+tavily_token = os.getenv('tavily_token')
+api_key = os.getenv('api_key')
+folder_id = os.getenv('folder_id')
+
+
 # Initialize
 app = FastAPI()
+
+
+model = ml_tools.InitializeModel(folder_id, api_key)
+
 logger = None
 
 
@@ -20,7 +35,6 @@ async def startup_event():
 @app.middleware("http")
 async def log_requests(request: Request, call_next):
     start_time = time.time()
-
     body = await request.body()
     await logger.info(
         f"Incoming request: {request.method} {request.url}\n"
@@ -53,17 +67,54 @@ async def log_requests(request: Request, call_next):
 async def predict(body: PredictionRequest):
     try:
         await logger.info(f"Processing prediction request with id: {body.id}")
-        # Здесь будет вызов вашей модели
-        answer = 1  # Замените на реальный вызов модели
-        sources: List[HttpUrl] = [
-            HttpUrl("https://itmo.ru/ru/"),
-            HttpUrl("https://abit.itmo.ru/"),
-        ]
 
+        question = body.query
+        flag = ml_tools.IsEnumerated(question)
+        rephrased_question = ml_tools.FromQuestionMakeQuery(question=question, model = model)
+        print(rephrased_question)
+        url_list = requests_utils.GetURLs(rephrased_question, tavily_token)
+
+        big_text = ""
+
+        for url in url_list:
+            scraped = requests_utils.GetInfoFromURL(url, rephrased_question, model)
+            if scraped == None:
+                continue
+            big_text += scraped + ".\n"
+            if len(big_text) >= 10000:
+                break
+        # summary = ml_tools.Summarize(big_text, model)
+        answer = ml_tools.GiveAnswerWithContext(big_text, question, model)
+        is_valid = ml_tools.ValidateAnwser(answer, model)
+        answer_number = ml_tools.DefineAnswerNumber(answer, question, model)
+        if not flag:
+            answer_number = '-1'
+        else:
+            try:
+                if int(answer_number) == -1:
+                    answer_number = '-1'
+                elif int(answer_number) > 10:
+                    answer_number = '-1'
+
+            except ValueError:
+                answer_number = '3'
+
+        sources: List[HttpUrl] = []
+
+        for url in url_list[:3]:
+            sources.append(HttpUrl(url))
+
+        # Здесь будет вызов вашей модели
+        # answer = 1  # Замените на реальный вызов модели
+        # sources: List[HttpUrl] = [
+        #     HttpUrl("https://itmo.ru/ru/"),
+        #     HttpUrl("https://abit.itmo.ru/"),
+        # ]
+        answer += " Ответ был дан YaGPT.PRO."
         response = PredictionResponse(
             id=body.id,
-            answer=answer,
-            reasoning="Из информации на сайте",
+            answer=answer_number,
+            reasoning=answer,
             sources=sources,
         )
         await logger.info(f"Successfully processed request {body.id}")
